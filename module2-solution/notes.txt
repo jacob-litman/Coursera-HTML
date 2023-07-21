@@ -1,0 +1,14 @@
+Browser version at >= 992 px
+Tablet view is >= 768 and <= 991
+Mobile view at <= 767 px
+
+Need a page heading, and 3 sections which are all in the same row on desktop version.
+Tablet version should be 2 sections in the top row, one full-width on the second row.
+Mobile version is 1 section/row.
+Section title regions at upper right.
+
+Each section has a unique color, and each section header has a unique color. Text may be altered in color.
+
+Choose an excellent font-family like papyrus or uppestcase/lowestcase (AI version preferred).
+
+Have a bit of padding.

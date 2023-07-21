@@ -1,0 +1,23 @@
+body {
+	font-family: Brush Script MT, Comic Sans, Papyrus, serif !important;
+	font-weight: 713;
+	color: green;
+	font-size: 15px;
+	padding: 11 px 14 px 10 px 15 px;
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--@import "psychedelic-resizing.css";-->
+	<!--Above should color background based on media queries which change for every last pixel.-->
+}
+
+* {
+	box-sizing: border-box;
+}
+
+p {
+	color: red;
+	font-size: 17px;
+}
+
+h1 {
+	font-weight: 100;
+}

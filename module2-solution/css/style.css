@@ -1,0 +1,85 @@
+body {
+	font-family: Times New Roman, Times, serif;
+	color: FFFFFF;
+	font-size: 14px;
+	padding: 12 px;
+	background-image: linear-gradient(#EEFFEE, #BBFFBB);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+body {
+	/* Necessary to make the gradient background extend to the bottom of the page. */
+	height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 1.75em; /*For some reason, absolute sizing gets overriden by user agent stylesheet.*/
+	text-align: center;
+}
+
+.col {
+	margin: 10px 1% 10px 1%; /* top right bottom left */
+	border: 2px solid black;
+	background-color: #E0E0E0;
+}
+
+.food-header {
+	float: right;
+	border: 1px solid black;
+	width: 100px;
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: 600;
+}
+
+.food-body {
+	clear: right;
+}
+
+@media (max-width: 767px) {
+	.sm12 {
+		float: left;
+		width: 98%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.med6 {
+		float: left;
+		width: 48%;
+	}
+	.med12 {
+		float: left;
+		width: 98%;
+	}
+}
+
+@media (min-width: 992px) {
+	.lg4 {
+		float: left;
+		width: 31.33%;
+	}
+}
+
+.clear-floats {
+	clear: both;
+}
+
+#chicken-head {
+	background-color: #FF8888;
+}
+
+#beef-head {
+	background-color: #FF3333;
+	color: #FFFFFF
+}
+
+#sushi-head {
+	background-color: #EEF2A0
+}
